@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog — Open Mind</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="../index.html#home" aria-label="Home">Open Mind</a>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-controls="primary-nav-list" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul class="nav-list" id="primary-nav-list">
+            <li><a href="../index.html#about">About</a></li>
+            <li><a href="../team/index.html">Team</a></li>
+            <li><a href="../index.html#services">Services</a></li>
+            <li><a href="../index.html#case-studies">Case Studies</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../index.html#contact" class="btn btn-sm">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="section">
+      <div class="container">
+        <h1>Blog</h1>
+        <div id="blog-list" class="grid two"></div>
+      </div>
+    </main>
+    <footer class="site-footer"><div class="container footer-inner"><p>© <span id="year"></span> Open Mind</p></div></footer>
+    <script id="posts-data" type="application/json">[
+      {"slug":"how-i-approach-audits","title":"How I Approach Technical Audits","date":"2025-08-15","excerpt":"A pragmatic framework to surface risks and prioritise high‑leverage improvements across code, cloud, and delivery."},
+      {"slug":"shipping-mvps-fast","title":"Shipping MVPs Fast (Without Regrets)","date":"2025-08-05","excerpt":"Lean slices, clear success metrics, and guardrails that keep momentum without sacrificing future velocity."},
+      {"slug":"event-driven-architectures","title":"Event‑Driven Architectures: When and Why","date":"2025-07-25","excerpt":"Signs you’re ready for events, pitfalls to avoid, and practices that make it scale."},
+      {"slug":"choosing-right-architecture","title":"Choosing the Right Architecture (Today)","date":"2025-07-15","excerpt":"A decision-first guide to monoliths, modular monoliths, and microservices with trade‑offs."},
+      {"slug":"pragmatic-observability","title":"Pragmatic Observability for Small Teams","date":"2025-07-05","excerpt":"The minimum useful tracing, metrics, and alerts to reduce MTTR and build confidence."}
+    ]</script>
+    <script src="../js/main.js"></script>
+  </body>
+  </html>
+
+

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Shipping MVPs Fast (Without Regrets) — Blog</title>
+    <link rel="stylesheet" href="../css/styles.css">
+  </head>
+  <body>
+    <header class="site-header"><div class="container header-inner"><a class="logo" href="../index.html#home">Open Mind</a><nav class="nav"><ul class="nav-list"><li><a href="./index.html" class="btn btn-sm btn-alt"><span class="icon" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M15.5 19a1 1 0 0 1-.7-.29l-6-6a1 1 0 0 1 0-1.42l6-6a1 1 0 0 1 1.4 1.42L10.9 12l5.3 5.29A1 1 0 0 1 15.5 19z"/></svg></span><span>Back</span></a></li></ul></nav></div></header>
+    <main class="section"><div class="container">
+      <h1>Shipping MVPs Fast (Without Regrets)</h1>
+      <div class="post-meta">2025-08-05</div>
+      <div class="card post-content prose">
+        <p>To ship MVPs fast, define the thin slice and commit to learning quickly. Here are practices I use:</p>
+        <ul>
+          <li>Define a thin slice with a crisp success metric</li>
+          <li>Choose boring tech and prove value before polish</li>
+          <li>Add guardrails: tests for core flows, basic monitoring</li>
+          <li>Ship weekly; learn and iterate</li>
+        </ul>
+        <h3>Example release script</h3>
+        <pre><code>#!/usr/bin/env bash
+set -euo pipefail
+
+echo "Running tests..."
+npm test -- --ci
+
+echo "Building..."
+npm run build
+
+echo "Deploying..."
+./deploy.sh --env=staging --non-interactive
+
+echo "Done."
+</code></pre>
+        <blockquote>Prefer scripts you can run the same way locally and in CI. It reduces surprises.</blockquote>
+        <figure>
+          <img src="../assets/mvp-slice.png" alt="MVP slice illustration">
+          <figcaption>A simple diagram showing a thin, end‑to‑end slice.</figcaption>
+        </figure>
+      </div>
+    </div></main>
+    <footer class="site-footer"><div class="container footer-inner"><p>© <span id="year"></span> Open Mind</p></div></footer>
+    <script src="../js/main.js"></script>
+  </body>
+  </html>
+
+

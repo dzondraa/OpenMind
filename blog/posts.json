@@ -1,0 +1,34 @@
+[
+  {
+    "slug": "how-i-approach-audits",
+    "title": "How I Approach Technical Audits",
+    "date": "2025-08-15",
+    "excerpt": "A pragmatic framework to surface risks and prioritise high‑leverage improvements across code, cloud, and delivery."
+  },
+  {
+    "slug": "shipping-mvps-fast",
+    "title": "Shipping MVPs Fast (Without Regrets)",
+    "date": "2025-08-05",
+    "excerpt": "Lean slices, clear success metrics, and guardrails that keep momentum without sacrificing future velocity."
+  },
+  {
+    "slug": "event-driven-architectures",
+    "title": "Event‑Driven Architectures: When and Why",
+    "date": "2025-07-25",
+    "excerpt": "Signs you’re ready for events, pitfalls to avoid, and practices that make it scale."
+  },
+  {
+    "slug": "choosing-right-architecture",
+    "title": "Choosing the Right Architecture (Today)",
+    "date": "2025-07-15",
+    "excerpt": "A decision-first guide to monoliths, modular monoliths, and microservices with trade‑offs."
+  },
+  {
+    "slug": "pragmatic-observability",
+    "title": "Pragmatic Observability for Small Teams",
+    "date": "2025-07-05",
+    "excerpt": "The minimum useful tracing, metrics, and alerts to reduce MTTR and build confidence."
+  }
+]
+
+

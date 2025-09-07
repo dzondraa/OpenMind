@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Open Mind — Technology Consulting</title>
+    <meta name="description" content="Open Mind company website: case studies, services, background, and products.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="images/logo.png" type="image/jpeg">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="logo" href="#home" aria-label="Home">Open Mind</a>
+        <nav class="nav" id="primary-nav" aria-label="Primary">
+          <button class="nav-toggle" aria-controls="primary-nav-list" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+            <span class="nav-toggle-bar"></span>
+          </button>
+          <ul class="nav-list" id="primary-nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="team/index.html">Team</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#case-studies">Case Studies</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+            <li><a href="#contact" class="btn btn-sm">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-inner">
+          <div class="hero-text">
+            <h1>Open Mind — Cloud‑based AI & ML solutions and consulting</h1>
+            <p>We design, build, and operate AI systems on Azure: data platforms, model development, secure deployment, and MLOps that scale.</p>
+            <div class="hero-cta">
+              <a href="#services" class="btn">See our services</a>
+              <a href="#contact" class="btn btn-secondary">Book an intro call</a>
+            </div>
+          </div>
+          <div class="hero-photo" aria-hidden="false">
+            <img src="images/logo.png" alt="Open Mind logo" width="320" height="320" loading="eager" />
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="services" class="section alt">
+        <div class="container">
+          <h2>Services — Cloud AI & ML</h2>
+          <div class="grid three">
+            <div class="service card">
+              <h3>AI Strategy & Consultation</h3>
+              <p>Identify high‑impact AI/ML opportunities, pick the right models and cloud services, and create a roadmap that balances ROI, risk, and time‑to‑value.</p>
+              <ul class="bullets small">
+                <li>Use‑case discovery and prioritization</li>
+                <li>Model selection: OpenAI, Azure AI, Hugging Face</li>
+                <li>Risk, cost, and compliance assessment</li>
+                <li>Delivery roadmap and KPIs</li>
+              </ul>
+            </div>
+            <div class="service card">
+              <h3>Cloud AI/ML Engineering</h3>
+              <p>Design and build production AI systems on Azure: from data pipelines and feature stores to model training, evaluation, and serving.</p>
+              <ul class="bullets small">
+                <li>Vector search, RAG, and agentic workflows</li>
+                <li>MLOps with CI/CD, monitoring, and evaluation</li>
+                <li>Secure inference and data governance</li>
+              </ul>
+            </div>
+            <div class="service card">
+              <h3>Data Platforms for AI</h3>
+              <p>Implement scalable data foundations to power AI: ingestion, transformation, storage, and real‑time features optimized for model performance.</p>
+              <ul class="bullets small">
+                <li>Lakehouse, warehouses, and feature stores</li>
+                <li>Observability and data quality controls</li>
+                <li>Privacy, compliance, and cost optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="case-studies" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Case Studies</h2>
+            <a class="link" href="case-studies/index.html">View all</a>
+          </div>
+          <div class="grid three">
+            <a class="card link-card" href="case-studies/case-1.html">
+              <h3>AI Knowledge Assistant for Ops</h3>
+              <p>RAG + vector search; 40% fewer escalations and faster answers.</p>
+              <span class="more">Read case</span>
+            </a>
+            <a class="card link-card" href="case-studies/index.html">
+              <h3>Predictive Maintenance</h3>
+              <p>Streaming features detect anomalies early; reduced unplanned downtime.</p>
+              <span class="more">Explore cases</span>
+            </a>
+            <a class="card link-card" href="case-studies/index.html">
+              <h3>Risk Scoring for Fintech</h3>
+              <p>Governed model serving with audit trails and cost guardrails.</p>
+              <span class="more">Explore cases</span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      
+
+      <section id="blog" class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Latest Posts</h2>
+            <a class="link" href="blog/index.html">View all</a>
+          </div>
+          <div id="home-blog-list" class="grid three"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container grid two">
+          <div>
+            <h2>Contact</h2>
+            <p>Interested in working together? Email us with a short note about your context, timeline, and goals.</p>
+            <a class="btn" href="mailto:contact@openmind.com?subject=Consulting%20Inquiry">contact@openmind.com</a>
+          </div>
+          <div>
+            <div class="card">
+              <h3>Typical Engagements</h3>
+              <ul class="bullets small">
+                <li>Advisory: 2–4 hours/week</li>
+                <li>Project-based: 4–20 weeks</li>
+                <li>Fractional: 1–3 days/week</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Open Mind — Technology Consulting</p>
+        <div class="social">
+          <a href="https://www.linkedin.com/in/djordje-nikolic-850a44197/" aria-label="LinkedIn">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+    <script id="posts-data" type="application/json">[
+      {"slug":"how-i-approach-audits","title":"How I Approach Technical Audits","date":"2025-08-15","excerpt":"A pragmatic framework to surface risks and prioritise high‑leverage improvements across code, cloud, and delivery."},
+      {"slug":"shipping-mvps-fast","title":"Shipping MVPs Fast (Without Regrets)","date":"2025-08-05","excerpt":"Lean slices, clear success metrics, and guardrails that keep momentum without sacrificing future velocity."},
+      {"slug":"event-driven-architectures","title":"Event‑Driven Architectures: When and Why","date":"2025-07-25","excerpt":"Signs you’re ready for events, pitfalls to avoid, and practices that make it scale."},
+      {"slug":"choosing-right-architecture","title":"Choosing the Right Architecture (Today)","date":"2025-07-15","excerpt":"A decision-first guide to monoliths, modular monoliths, and microservices with trade‑offs."},
+      {"slug":"pragmatic-observability","title":"Pragmatic Observability for Small Teams","date":"2025-07-05","excerpt":"The minimum useful tracing, metrics, and alerts to reduce MTTR and build confidence."}
+    ]</script>
+    <script src="js/main.js"></script>
+  </body>
+  </html>
+
+
